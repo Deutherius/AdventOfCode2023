@@ -6,8 +6,6 @@ from helpers import pad, bcolors as b
 from copy import deepcopy
 from math import lcm
 import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 
 def find_intersection_point(line1, line2):
     #extract points from the lines
